@@ -1,18 +1,15 @@
 .examples {
-  padding-top: 0;
-}
-.examples__list {
   display: flex;
   justify-content: space-between;
 }
-.example__card:not(:last-child) {
+.examples__item:not(:last-child) {
   margin-right: 30px;
 }
 
 .examples__title {
   margin-bottom: 50px;
 }
-.example-cover-text {
+.examples__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -29,6 +26,6 @@
   width: 100%;
 }
 
-.example-card-wrap {
+.examples__wrap {
   position: relative;
 }

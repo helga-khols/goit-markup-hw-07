@@ -1,29 +1,12 @@
 .clients {
-  background-color: var(--main-bg-color);
-}
-
-.clients-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: var(--main-text-color);
-  margin-bottom: 50px;
-}
-
-.clients__title {
-  margin-bottom: 50px;
-}
-
-.clients-list {
   display: flex;
 }
 
-.clients-item + .clients-item {
+.clients__item + .clients__item {
   margin-left: 30px;
 }
 
-.clients-link {
+.clients__link {
   width: 170px;
   height: 92px;
   border-radius: 4px;
